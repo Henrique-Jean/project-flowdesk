@@ -1,13 +1,20 @@
+import Header from "./components/header";
+
 function App() {
   return(
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-5xl font-bold text-blue-600 mb-4">🚀 FlowDesk</h1>
-      <p className="yexy-xl text-gray-600"> Se este texto for cinza e o titulo azul...
-      </p>
-      <button className="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition font-bold shadow-lg">O Tailwind Funcionou!
-      </button>
+      <div className="min-h-screen bg-slate-50">
+      <Header />
+
+      <main className="container mx-auto px-6 py-20 text-center">
+        <h1 className="text-4xl font-bold text-gray-900">
+        O Header está Pronto! ✅
+        </h1>
+
+        <p className="mt-4 text-gray-600">
+        Agora vamos contruir a próxima peça: o Hero Section.
+       </p>
+      </main>
     </div>
   )
 }
-
 export default App
