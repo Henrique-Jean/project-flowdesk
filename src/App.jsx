@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import Hero from "./components/hero";
 import Features from "./components/features";
+import Pricing from "./components/pricing";
 
 function App(){
   return(
@@ -11,6 +12,8 @@ function App(){
       <Hero />
 
       <Features />
+
+      <Pricing />
 
     </div>
   )
