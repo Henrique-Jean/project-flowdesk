@@ -1,16 +1,38 @@
-# React + Vite
+# 🚀 FlowDesk - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern, high-performance Landing Page built for a SaaS project management tool.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+🟢 View Project Online https://project-flowdesk.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+This project was built using modern Front-end best practices:
 
-## React Compiler
+-   **React** (Vite) - For a fast and component-based UI.
+-   **Tailwind CSS** - For rapid, utility-first styling.
+-   **JavaScript (ES6+)** - Logic and interactivity.
+-   **Vercel** - CI/CD and Hosting.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
+-   ✅ **Hero Section**: Impactful first impression with Call-to-Actions.
+-   ✅ **Dynamic Features**: Rendered using JavaScript mapping `.map()`.
+-   ✅ **Smart Pricing**: Conditional rendering to highlight the "Recommended" plan.
+-   ✅ **Social Proof**: Testimonials section with user avatars.
+-   ✅ **Fully Responsive**: Optimized for Mobile, Tablet, and Desktop.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Henrique-Jean
+
+# 2. Enter the project folder
+cd flowdesk-landing
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
